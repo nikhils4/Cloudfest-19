@@ -18,7 +18,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="border-bottom : 2px solid gray">
 		<a class="navbar-brand" href="#">
-			<img src="./assets/nav-logo.svg" style="width : 200px">
+			<img src="./assets/nav-logo.svg" id="nav-logo" style="width : 200px">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +31,16 @@
 					<a class="nav-link" color="0" href="#">Home</a>
 				</li>
 				<li class="nav-item nav-des" id="sponsors" color="1">
-					<a class="nav-link" color="1" href="#">Sponsors</a>
+					<a class="nav-link" color="1" href="#spon">Sponsors</a>
 				</li>
 				<li class="nav-item nav-des" id="speakers" color="2">
-					<a class="nav-link" color="2" href="#">Speakers</a>
+					<a class="nav-link" color="2" href="#speak">Speakers</a>
 				</li>
 				<li class="nav-item nav-des" id="tech-used" color="3">
 					<a class="nav-link" color="3" href="#">Technologies Used</a>
 				</li>
 				<li class="nav-item nav-des" id="contact-us" color="4">
-					<a class="nav-link" color="4" href="#">Contact Us</a>
+					<a class="nav-link" color="4" href="#contact">Contact Us</a>
 				</li>
 			</ul>
 		</div>
@@ -52,8 +52,8 @@
 	<div class="container-fluid">
 		<!-- Top div -->
 		<div class="row">
-			<div class="col-12 col-lg-8" style="padding-top : 100px; border : 2px solid black">
-				<!-- <img src="./assets/topdiv-img.svg" style="width : 100%; min-width : 400px"> -->
+			<div class="col-12 col-lg-8" style="padding-top : 120px ">
+				<img src="./assets/top-div-img.svg" style="width : 100%;">
 			</div>
 			<div class="col-12 col-lg-4 cloud-logo">
 
@@ -70,37 +70,32 @@
 		</div>
 
 		<!-- Sponsors -->
-		<div class="row" style="padding : 10vh 20vw">
+		<div class="row" id="spon" style="padding : 10vh 20vw">
 			<div class="col-12 content-heading">
 				Our Sponsors
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="sponsor-img"></div>
+				<img src="./assets/google-cloud.png" style="width : 70%">
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="sponsor-img"></div>
+				<img src="./assets/turbot.png" style="width : 100%">
+
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="sponsor-img"></div>
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="sponsor-img"></div>
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="sponsor-img"></div>
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="sponsor-img"></div>
+				<img src="./assets/lbry.png" style="width : 70%">
+
 			</div>
 		</div>
 
 		<!-- Speakers -->
-		<div class="row" style="padding : 10vh 20vw">
+		<div class="row" id="speak" style="padding : 10vh 20vw">
 			<div class="col-12 content-heading">
 				Speakers
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="speaker-img"></div>
+				<div>
+					<img src="./assets/pic.jpeg" class="speaker-img">
+				</div>
 				<div class="speaker-name">
 					Name
 				</div>
@@ -109,7 +104,9 @@
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="speaker-img"></div>
+				<div>
+					<img src="./assets/pic.jpeg" class="speaker-img">
+				</div>
 				<div class="speaker-name">
 					Name
 				</div>
@@ -118,7 +115,9 @@
 				</div>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="speaker-img"></div>
+				<div>
+					<img src="./assets/pic.jpeg" class="speaker-img">
+				</div>
 				<div class="speaker-name">
 					Name
 				</div>
@@ -126,65 +125,39 @@
 					Designation
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="speaker-img"></div>
-				<div class="speaker-name">
-					Name
-				</div>
-				<div class="speaker-desgn">
-					Designation
-				</div>
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="speaker-img"></div>
-				<div class="speaker-name">
-					Name
-				</div>
-				<div class="speaker-desgn">
-					Designation
-				</div>
-			</div>
-			<div class="col-12 col-md-6 col-lg-4 img-cover">
-				<div class="speaker-img"></div>
-				<div class="speaker-name">
-					Name
-				</div>
-				<div class="speaker-desgn">
-					Designation
-				</div>
-			</div>
+
 		</div>
 
 
 		<!-- Contact Us -->
-		<div class="row" style="padding : 10vh 20vw">
+		<div class="row" id="contact" style="padding : 10vh 20vw">
 			<div class="col-12 content-heading">
 				Contact Us
 			</div>
-			<div class="col-12 col-lg-6">
-				<!-- <img src='./assets/phone.svg' style="width : 400px"> -->
+			<div class="col-12 col-lg-6 phone" style=" text-align : center">
+				<img src='./assets/phone-img.svg' style="max-width : 100%;">
 			</div>
 			<div class="col-12 col-lg-6">
 				<div class="details">
 					<p>
-					Samarth Nayyar
-					<br>
-					Community Lead
+						Samarth Nayyar
+						<br>
+						Community Lead
 					</p>
 				</div>
 				<div class="phone">
 					<p>+91 9818288112</p>
 				</div>
 				<div class="details">
-						<p>
+					<p>
 						Punid Ramesh
 						<br>
 						Event Manager
-						</p>
-					</div>
-					<div class="phone">
-						<p>+91 7760493022</p>
-					</div>
+					</p>
+				</div>
+				<div class="phone">
+					<p>+91 7760493022</p>
+				</div>
 			</div>
 		</div>
 

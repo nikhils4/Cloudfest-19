@@ -1,3 +1,8 @@
+
+	window.addEventListener('scroll', () => {
+		document.getElementById('nav-logo').style.visibility = "visible"
+	})
+
 window.onload = () => {
 	let id = [
 		"home",
@@ -26,4 +31,6 @@ window.onload = () => {
 			})
 		})
 	})
+
+
 }
