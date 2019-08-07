@@ -1,6 +1,7 @@
 
 	window.addEventListener('scroll', () => {
-		document.getElementById('nav-logo').style.visibility = "visible"
+		document.getElementById('nav-logo').style.visibility = "visible";
+		document.getElementById("nav-top-one").style.borderBottom = "2px solid gray"
 	})
 
 window.onload = () => {
