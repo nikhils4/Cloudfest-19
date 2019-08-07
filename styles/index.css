@@ -18,6 +18,10 @@ body {
 	margin : auto auto;
 }
 
+.reg-btn {
+	margin-top : 40px
+}
+
 
 .content-heading {
 	font-size : 25px;
