@@ -56,6 +56,11 @@ body {
 	font-size : 22px
 }
 
+.cloud-logo {
+	text-align : center; 
+	padding-top : 150px
+}
+
 @media (max-width : 600px){
 	#phone {
 		transform: translateX(-25%)
@@ -65,5 +70,9 @@ body {
 	}
 	.phone {
 		text-align: center
+	}
+	.cloud-logo {
+		text-align : center; 
+		padding-top : 120px
 	}
 }
