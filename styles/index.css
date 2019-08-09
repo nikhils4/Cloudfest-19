@@ -63,13 +63,14 @@ body {
 		position: absolute; 
 		top : 50%; 
 		left : 50%; 
-		transform: translate(-50%,-50%)
+		transform: translate(-50%,-50%);
+		text-align: left
 	}
 	.reg-btn {
 		position: absolute; 
 		top : 60%; 
-		left : 50%; 
-		transform: translate(-50%,-50%)
+		left : 7%; 
+		transform: translateY(50%)
 	}
 }
 
@@ -91,6 +92,9 @@ body {
 }
 
 @media (max-width : 600px){
+	#details-cover {
+		margin-top : 40px
+	}
 	.details {
 		text-align: center
 	}
