@@ -72,6 +72,10 @@ body {
 		left : 7%; 
 		transform: translateY(50%)
 	}
+	#fix {
+text-align: left;
+margin-top: 430px
+	}
 }
 
 .nav-des {
@@ -92,6 +96,7 @@ body {
 }
 
 @media (max-width : 600px){
+
 	#details-cover {
 		margin-top : 40px
 	}
@@ -104,5 +109,9 @@ body {
 	.cloud-logo {
 		text-align : center; 
 		padding-top : 120px
+	}
+	#fix {
+text-align: center;
+margin-top : 50px
 	}
 }
