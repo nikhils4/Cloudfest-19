@@ -1,4 +1,4 @@
-![Cloudfest Logo](https://cloudfest.netlify.com/assets/nav-logo.svg)
+<div style="text-align:center"><img alt="Cloudfest Logo" src="https://cloudfest.netlify.com/assets/nav-logo.svg"/></div>
 
 # Cloudfest'19 
 
